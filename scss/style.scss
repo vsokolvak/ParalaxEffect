@@ -29,13 +29,17 @@
     // .parallax__montain2
 
     &__montain2 {
-        background: url(../img/m_2.png) bottom right / 45% no-repeat;
+        top: 50%;
+        background: url(../img/m_2.png) bottom right /50% 60% no-repeat;
+        height: 50%;
     }
 
     // .parallax__montain3
 
     &__montain3 {
-        background: url(../img/m_3.png) bottom left / 100% no-repeat;
+        top: 50%;
+        background: url(../img/m_3.png) bottom left /100% 60% no-repeat;
+        height: 50%;
     }
 
     // .parallax__fog
@@ -52,7 +56,7 @@
     z-index: 1;
     text-align: center;
     background-color: rgba(245, 222, 179, 0.242);
-    padding-top: 100vh;
+    margin-top: 100vh;
 
     // .content__header
 

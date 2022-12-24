@@ -10,17 +10,19 @@ function paralax(){
     const rockLeft = document.querySelector('.parallax__montain3');
     window.addEventListener('scroll', function(event) {
         let fogScroll = this.scrollY;
-        rockLeft.style.transform = 'translateX(-' + fogScroll/10 + 'px)';
-        rockLeft.style.transform = 'translateY(' + fogScroll/1 + 'px)';
-        rockLeft.style.transform = 'scale(' + (fogScroll + 800)/800 + ')';
+        let transformX = 'translateX(-' + fogScroll/25 + 'px)';
+        let transformY = 'translateY(' + fogScroll/11 + 'px)';
+        let transformScale = 'scale(' + (fogScroll + 800)/800 + ')';
+        rockLeft.style.transform = transformX + transformY + transformScale;
     });
 
     const rockRight = document.querySelector('.parallax__montain2');
     window.addEventListener('scroll', function(event) {
         let fogScroll = this.scrollY;
-        rockRight.style.transform = 'translateX(' + fogScroll/10 + 'px)';
-        rockRight.style.transform = 'translateY(' + fogScroll/1 + 'px)';
-        rockRight.style.transform = 'scale(' + (fogScroll + 800)/800 + ')';
+        let transformX = 'translateX(' + fogScroll/25 + 'px)';
+        let transformY = 'translateY(' + fogScroll/11 + 'px)';
+        let transformScale = 'scale(' + (fogScroll + 800)/800 + ')';
+        rockRight.style.transform = transformX + transformY + transformScale;
     });
 
     const rockCentr = document.querySelector('.parallax__montain1');

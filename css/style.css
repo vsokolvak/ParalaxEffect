@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+.wrapper {
+  position: relative;
+}
+
+.parallax {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.parallax__montain {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.parallax__montain1 {
+  background: url(../img/m_1.png) 0 0/cover no-repeat;
+}
+.parallax__montain2 {
+  background: url(../img/m_2.png) bottom right/45% no-repeat;
+}
+.parallax__montain3 {
+  background: url(../img/m_3.png) bottom left/100% no-repeat;
+}
+.parallax__fog {
+  background: url(../img/fog_1.png) 50% 50%/100% no-repeat;
+}
+
+.content {
+  width: 70%;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  background-color: rgba(245, 222, 179, 0.242);
+  margin-top: 100vh;
+}
+.content__header {
+  padding: 50px 0;
+}
+.content__title {
+  font-size: 100px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin-bottom: 30px;
+}
+.content__subtitle {
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+}
+.content__content {
+  font-size: 22px;
+  line-height: 30px;
+}
+.content__content p {
+  margin-bottom: 30px;
+}
+.content__txt {
+  word-spacing: 5px;
+}

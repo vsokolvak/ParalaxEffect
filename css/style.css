@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1;
   text-align: center;
   background-color: rgba(245, 222, 179, 0.242);
-  margin-top: 100vh;
+  padding-top: 100vh;
 }
 .content__header {
   padding: 50px 0;

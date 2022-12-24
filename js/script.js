@@ -5,8 +5,6 @@ function paralax(){
         let fogScroll = this.scrollY/100 + 1;
         fog.style.transform = 'scale(' + fogScroll + ')';
         fog.style.opacity = 1 / fogScroll;
-        console.log(fogScroll);
-        console.log(fog.style.opacity);
     });
 
     const rockLeft = document.querySelector('.parallax__montain3');
